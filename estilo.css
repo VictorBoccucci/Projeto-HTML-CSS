@@ -1,35 +1,14 @@
-
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 90% 10%;
-  gap: 3px;
-
-
-}
-
-.grid-container > div {
-
-  text-align: left;
-  padding: auto;
-  font-size: 100%;
-}
-
-.menu{
-
-  padding: auto;
-  margin: auto;
-  font-size: 10PX;
+#principal {
+  width: 700px;
+  background-color: whitesmoke;
 }
 
 
 a {
- 
+  background-color: whitesmoke;
   display: block;
-  padding: 5px 0px 5px 5px;
+  padding: 5px 5px 5px 5px;
   text-decoration: none;
-  text-align: left;
- font-size: 1.0em;
 
 }
 
@@ -41,8 +20,10 @@ a:hover {
   padding: 5px;
 }
 
+menu {
+  padding: 20px 20px 20px 20px;
 
-
+}
 
 #home{
   width: 10px;
@@ -54,15 +35,10 @@ a:hover {
 }
 
 .img-filhote{
- border-radius: 8%; 
   width: 50%;
   height: 50%;
   margin: 0;
   padding: 0;
-  display: block;
-  margin-left: 50%;
-  margin-right: 0%;
-
 }
 
 .img-perfil{
@@ -70,15 +46,20 @@ a:hover {
   height: 10%;
   margin: 0;
   padding: 0;
-
 }
 
 
+h1{
+  font-size: 1.5em;
+}
+
+#area-lateral{
+  width: 240px;
+  float: right;
+  
+  
+}
 
 #conteudo{
-  margin-left: 50%;
-  padding: 10px 10px 10px 20px;
-  float: left;
-  font-size: 100%;
-
-} 
+  padding: 20px 20px 20px 0px;
+}
